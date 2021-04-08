@@ -1,0 +1,28 @@
+textarea {
+    background-color: #f4f1ec;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: vertical;
+    width: 100%;
+    border-bottom: solid #545149 1px;
+    line-height: 1;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+form label {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #4056A1;
+    color: white;
+}
