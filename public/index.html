@@ -36,7 +36,7 @@
       </div>
     </header>
     <!-- Page-specific (main) content here -->
-    <main class="container">
+    <main class="container" id="tweets-container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets">
@@ -50,7 +50,12 @@
       </section>
 
       <article>
-        <header>test</header>
+        <header>
+          <p>
+            <span>Name</span>
+            <span>Handle</span>
+          </p>
+        </header>
         <div class="tweet-content">
           Tweet content
         </div>
