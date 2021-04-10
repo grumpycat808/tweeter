@@ -30,3 +30,26 @@ button {
 .danger {
     color: red;
 }
+
+article {
+    border: solid  #545149 2px;
+    padding: 1em;
+    margin-top: 2em;
+    font-family: sans-serif;
+    
+}
+
+article:hover {
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.21); 
+    box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.21);
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+footer {
+    border-top: solid  #545149 2px;
+    margin-top: 1em;
+    padding-top: 1em;
+} 
