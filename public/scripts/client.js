@@ -51,6 +51,10 @@ $(document).ready(function(data){
         
     });
 
+    $('.btn-compose-tweet').on('click', function(){
+        $('.new-tweet').stop(true, true).slideToggle('slow');
+    });
+
     const loadTweets = () => {
         $.ajax({
             type: "GET",

@@ -19,7 +19,7 @@ form div {
 }
 
 form label {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 button {
@@ -35,7 +35,7 @@ article {
     border: solid  #545149 2px;
     padding: 1em;
     margin-top: 2em;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
@@ -72,4 +72,8 @@ article header p {
 
 article header img {
     margin-right: 20px;
+}
+
+section.new-tweet {
+    display: none;
 }
