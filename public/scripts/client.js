@@ -40,7 +40,9 @@ $(document).ready(function(data){
             url: '/tweets',
             data: $(this).serialize(),
             success: () => {
-                console.log("success")
+                console.log("success");
+                $('#tweets-container').children().filter(':not(.new-tweet)').remove();
+                loadTweets();
             },
             error: () => {
                 console.log("Error")

@@ -1,4 +1,4 @@
-body > header {
+body > header #profile-container {
     height: 400px;
     width: 100%;
     display: flex;
@@ -9,5 +9,17 @@ body > header {
     background-color: #8a008a;
     background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
     margin-top: 120px;
+}
+
+@media screen and (min-width:1024px) { 
+
+    body > header #profile-container { 
+        min-width: 300px;
+        width: 70%;
+    }
+
+    header {
+        justify-content: center;
+    }
 }
 
